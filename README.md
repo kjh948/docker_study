@@ -24,5 +24,6 @@ vi docker_ros.sh
   --user root \
   --shm-size 4096m \
   --name $PS_NAME ros_noetic bas
+
 3. docker commit
 docker commit {CONTAINER ID} {MY IMAGE NAME:TAG}를 하면 컨테이너가 이미지로 저장된다.
